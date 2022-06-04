@@ -68,10 +68,8 @@
 		EC2436C9284BCCEE0076BEAF /* Remember */ = {
 			isa = PBXGroup;
 			children = (
-				EC2436CA284BCCEE0076BEAF /* AppDelegate.swift */,
-				EC2436CC284BCCEE0076BEAF /* SceneDelegate.swift */,
-				EC2436CE284BCCEE0076BEAF /* MainViewController.swift */,
-				EC2436F2284BF7080076BEAF /* LoginInViewController.swift */,
+				EC2436F5284BFCBA0076BEAF /* Application */,
+				EC2436F4284BFCAE0076BEAF /* Controllers */,
 				EC2436DE284BD0230076BEAF /* Extensions */,
 				EC2436E7284BD7060076BEAF /* Resources */,
 			);
@@ -115,6 +113,24 @@
 				EC2436D8284BCCF00076BEAF /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC2436F4284BFCAE0076BEAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC2436CE284BCCEE0076BEAF /* MainViewController.swift */,
+				EC2436F2284BF7080076BEAF /* LoginInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EC2436F5284BFCBA0076BEAF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC2436CA284BCCEE0076BEAF /* AppDelegate.swift */,
+				EC2436CC284BCCEE0076BEAF /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
