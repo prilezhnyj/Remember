@@ -9,7 +9,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    private let greetingLabel = UILabel(text: "👋🏻 Привет, это Remember", font: SetupFont.helveticaNeueBold(size: 24), textColor: .black, textAlignment: .left)
+    private let greetingLabel = UILabel(text: "👋🏻 Привет, это Remember", font: SetupFont.helveticaNeueBold(size: 24), textColor: SetupColor.blue(), textAlignment: .left)
     
     private let descriptionOneLabel = UILabel(text: "Приложение, созданное для того, чтобы вы не забывали свои дневные задачи и оставались продуктивными.", font: SetupFont.helveticaNeueRegular(size: 18), textColor: .black, textAlignment: .left)
     
@@ -48,12 +48,12 @@ class MainViewController: UIViewController {
 
 // MARK: - @objc action methods
 extension MainViewController {
-    @objc private func loginInButtonAction() {
+    @objc fileprivate func loginInButtonAction() {
         present(LoginInViewController(), animated: true, completion: nil)
     }
     
-    @objc private func signUpButtonAction() {
-        present(LoginInViewController(), animated: true, completion: nil)
+    @objc fileprivate func signUpButtonAction() {
+        present(SignUpViewController(), animated: true, completion: nil)
     }
 }
 

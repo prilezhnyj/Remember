@@ -19,6 +19,9 @@
 		EC2436EF284BE7580076BEAF /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436EE284BE7580076BEAF /* UIButton.swift */; };
 		EC2436F1284BF30C0076BEAF /* SetupColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436F0284BF30C0076BEAF /* SetupColor.swift */; };
 		EC2436F3284BF7080076BEAF /* LoginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436F2284BF7080076BEAF /* LoginInViewController.swift */; };
+		EC2436F7284BFD1F0076BEAF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436F6284BFD1F0076BEAF /* SignUpViewController.swift */; };
+		EC2436FA284C97490076BEAF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436F9284C97490076BEAF /* CustomTextField.swift */; };
+		EC2436FC284D18730076BEAF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436FB284D18730076BEAF /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		EC2436EE284BE7580076BEAF /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		EC2436F0284BF30C0076BEAF /* SetupColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupColor.swift; sourceTree = "<group>"; };
 		EC2436F2284BF7080076BEAF /* LoginInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInViewController.swift; sourceTree = "<group>"; };
+		EC2436F6284BFD1F0076BEAF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EC2436F9284C97490076BEAF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EC2436FB284D18730076BEAF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				EC2436F5284BFCBA0076BEAF /* Application */,
+				EC2436F8284C96F20076BEAF /* View */,
 				EC2436F4284BFCAE0076BEAF /* Controllers */,
 				EC2436DE284BD0230076BEAF /* Extensions */,
 				EC2436E7284BD7060076BEAF /* Resources */,
@@ -92,6 +99,7 @@
 				EC2436E2284BD4E00076BEAF /* UILabel.swift */,
 				EC2436EB284BD9830076BEAF /* UIStackView.swift */,
 				EC2436EE284BE7580076BEAF /* UIButton.swift */,
+				EC2436FB284D18730076BEAF /* UIView.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -120,6 +128,7 @@
 			children = (
 				EC2436CE284BCCEE0076BEAF /* MainViewController.swift */,
 				EC2436F2284BF7080076BEAF /* LoginInViewController.swift */,
+				EC2436F6284BFD1F0076BEAF /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -131,6 +140,14 @@
 				EC2436CC284BCCEE0076BEAF /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		EC2436F8284C96F20076BEAF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC2436F9284C97490076BEAF /* CustomTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2436FC284D18730076BEAF /* UIView.swift in Sources */,
+				EC2436F7284BFD1F0076BEAF /* SignUpViewController.swift in Sources */,
 				EC2436E3284BD4E00076BEAF /* UILabel.swift in Sources */,
 				EC2436CF284BCCEE0076BEAF /* MainViewController.swift in Sources */,
 				EC2436F1284BF30C0076BEAF /* SetupColor.swift in Sources */,
@@ -210,6 +229,7 @@
 				EC2436EC284BD9830076BEAF /* UIStackView.swift in Sources */,
 				EC2436EF284BE7580076BEAF /* UIButton.swift in Sources */,
 				EC2436E6284BD6090076BEAF /* SetupFont.swift in Sources */,
+				EC2436FA284C97490076BEAF /* CustomTextField.swift in Sources */,
 				EC2436E0284BD0450076BEAF /* UIColor.swift in Sources */,
 				EC2436CB284BCCEE0076BEAF /* AppDelegate.swift in Sources */,
 				EC2436CD284BCCEE0076BEAF /* SceneDelegate.swift in Sources */,
