@@ -22,6 +22,10 @@
 		EC2436F7284BFD1F0076BEAF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436F6284BFD1F0076BEAF /* SignUpViewController.swift */; };
 		EC2436FA284C97490076BEAF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436F9284C97490076BEAF /* CustomTextField.swift */; };
 		EC2436FC284D18730076BEAF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2436FB284D18730076BEAF /* UIView.swift */; };
+		EC76CF6C284E018800ABD386 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76CF6B284E018800ABD386 /* TaskViewController.swift */; };
+		EC76CF6E284E770400ABD386 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76CF6D284E770400ABD386 /* MainTabBarController.swift */; };
+		EC76CF70284E782100ABD386 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76CF6F284E782100ABD386 /* NoteViewController.swift */; };
+		EC76CF72284E788100ABD386 /* SettingViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC76CF71284E788100ABD386 /* SettingViewConroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		EC2436F6284BFD1F0076BEAF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EC2436F9284C97490076BEAF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		EC2436FB284D18730076BEAF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		EC76CF6B284E018800ABD386 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		EC76CF6D284E770400ABD386 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		EC76CF6F284E782100ABD386 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		EC76CF71284E788100ABD386 /* SettingViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewConroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +134,11 @@
 		EC2436F4284BFCAE0076BEAF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EC2436CE284BCCEE0076BEAF /* MainViewController.swift */,
-				EC2436F2284BF7080076BEAF /* LoginInViewController.swift */,
-				EC2436F6284BFD1F0076BEAF /* SignUpViewController.swift */,
+				EC76CF68284E00BD00ABD386 /* Authorization */,
+				EC76CF6D284E770400ABD386 /* MainTabBarController.swift */,
+				EC76CF6B284E018800ABD386 /* TaskViewController.swift */,
+				EC76CF6F284E782100ABD386 /* NoteViewController.swift */,
+				EC76CF71284E788100ABD386 /* SettingViewConroller.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -148,6 +158,16 @@
 				EC2436F9284C97490076BEAF /* CustomTextField.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EC76CF68284E00BD00ABD386 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				EC2436CE284BCCEE0076BEAF /* MainViewController.swift */,
+				EC2436F2284BF7080076BEAF /* LoginInViewController.swift */,
+				EC2436F6284BFD1F0076BEAF /* SignUpViewController.swift */,
+			);
+			path = Authorization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,12 +242,16 @@
 			files = (
 				EC2436FC284D18730076BEAF /* UIView.swift in Sources */,
 				EC2436F7284BFD1F0076BEAF /* SignUpViewController.swift in Sources */,
+				EC76CF6E284E770400ABD386 /* MainTabBarController.swift in Sources */,
+				EC76CF6C284E018800ABD386 /* TaskViewController.swift in Sources */,
 				EC2436E3284BD4E00076BEAF /* UILabel.swift in Sources */,
 				EC2436CF284BCCEE0076BEAF /* MainViewController.swift in Sources */,
 				EC2436F1284BF30C0076BEAF /* SetupColor.swift in Sources */,
 				EC2436F3284BF7080076BEAF /* LoginInViewController.swift in Sources */,
+				EC76CF70284E782100ABD386 /* NoteViewController.swift in Sources */,
 				EC2436EC284BD9830076BEAF /* UIStackView.swift in Sources */,
 				EC2436EF284BE7580076BEAF /* UIButton.swift in Sources */,
+				EC76CF72284E788100ABD386 /* SettingViewConroller.swift in Sources */,
 				EC2436E6284BD6090076BEAF /* SetupFont.swift in Sources */,
 				EC2436FA284C97490076BEAF /* CustomTextField.swift in Sources */,
 				EC2436E0284BD0450076BEAF /* UIColor.swift in Sources */,
